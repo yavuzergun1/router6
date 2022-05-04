@@ -1,4 +1,4 @@
-import { Link } from "react-router-dom";
+import { Link} from "react-router-dom";
 
 export default function App() {
   return (
@@ -10,9 +10,12 @@ export default function App() {
           paddingBottom: "1rem",
         }}
       >
+
+        {/* to= /'dan sonra gelecek uzantının adı: http://localhost:3000/invoices */}
         <Link to="/invoices">Invoices</Link> |{" "}
         <Link to="/expenses">Expenses</Link>
       </nav>
+    
     </div>
   );
 }
